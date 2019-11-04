@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Styles/main.css" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        $(function () {
+            $("#accordion").accordion({
+                collapsible: true,
+                heightStyle: "content"
+            });
+        });
+        $(function () {
+            $("#tabs").tabs({
+                event: "mouseover"
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <li><img src="Pictures/icon.bmp" width="52px" height="52px" /></li>
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html"class="current">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div id="wrapper">
+        <div id="content">
+            <div id="c-wrapper">
+                <div id="c-top">
+                    <h1>Hello <span class="bold">World</span></h1>
+                </div>
+
+                <div id="c-body">
+                    <h1>Languages</h1>
+
+                    <div id="accordion">
+
+                        <h2>Java</h2>
+                        <div><h3>2 Years of Course Work</h3>
+                            <p>I learned Object Oriented Programming and data structures on Java while at URI.
+                            As such I have done many projects with varying degrees of difficulty using Java (check some out 
+                            on the projects page!).</p>
+                        </div>
+
+                        <h2>Python</h2>
+                        <div><h3> 1 Year of Course Work</h3>
+                            <p>I learned to code using Python. Together with the IDLE environment I learned the basics of 
+                            coding in my freshmen year of college. We made simple programs, adding in step by step different 
+                            aspects of larger programs each week, from simple loops to file IO! Eventually we spent large 
+                            amounts of time working on different programs that essentially painted a picture or worked on 
+                            real world topics that programmers are struggling with today such as hash codes and bioinformatics.</p>
+                            <p>Fast forward to senior year and Python was again used in my Algorithms class. Throughout the semester 
+                            we would work with a different partner and work on solving a specific problem stemming from computer 
+                            science theoretical problems. However, we would need to do so in a way that no only worked, but was 
+                            efficient. We would also need to occasionally do analysis on the programs we created to see how well 
+                            it actually running.</p>
+                        </div>
+
+                        <h2>SQL</h2>
+                        <div><h3>6 Months of Course Work &amp; Internship</h3>
+                            <p>I have worked with both MySQL and SQL Server.</p>
+                            <p>I used MySQL in my most recent coursework at URI. Over the course of my last semester I worked on 
+                            understanding many concepts with databases, such as Relational Databases. I have worked on designing 
+                            databases and on structuring efficient queries. The semester concluded with a large project called 
+                            StreamTV; a mock TV streaming service. Coupling HTML, TWIG and PHP I created a large site that I 
+                            am very proud of. <a href="https://github.com/BlakeNappi/StreamTV">You can see it here</a></p>
+                            <p>While at my internship with FM Global I created a large SQL Server query. I had to traverse a 
+                            large database to restructure an existing query that was accessing one data stream and move it to 
+                            an entirely different structure. Afterwards I made it accessible in our CRM, uploading it and creating 
+                            a UI for both the query itself and the output. After peer review there was no discernable difference 
+                            between the original query and the one I created.</p>
+                        </div>
+
+                        <h2>HTML &amp; CSS</h2>
+                        <div><h3>5 Months of Course Work</h3>
+                            <p>I spent a semester working on learning web design, both code and principles. Over the semester I 
+                            learned about usability and accessibility. I learned how to create sites that could work on a 
+                            varity of browsers and devices, while learning how to make them more convenient for those with 
+                            disabilities. Through all of this I created this site and uploaded it to Amazon Web Services (AWS).</p>
+                            <p>Also, with my StreamTV project I was able to work with TWIG. For those unfamiliar it is a template 
+                            language for HTML. It was honestly amazing working with TWIG and it feels as if nearly all ecommerce 
+                            web pages would use TWIG.</p>
+                        </div>
+
+                        <h2>C#</h2>
+                            <div>
+                                <p>I have the least experience with C# at the moment, however I am actively trying to learn more! I 
+                                hope to create a some projects in the near future to bolster my knowledge. I have worked on a few small 
+                                code tests for jobs in C# and I was exposed to C# while at FM Global. I created a page in Microsoft CRM 
+                                Dynamics to act as a calculator using the pre and post-image of the page.</p>
+                            </div>
+                       
+                        <h2>JavaScript</h2>
+                        <div><h3>5 Months of Coursework &amp; Internship</h3>
+                            <p>I learned a lot of the basics of coding from my course in JavaScript early on in my career at URI. My 
+                            first introduction to a lot of concepts and even a bit on how Object Oriented works came from JavaScript. 
+                            I learned JavaScript alongside Python as well.</p>
+                            <p>While at FM Global I did some JavaScript training. JavaScript was used frequently as the platform used 
+                            at FMG was websites (for my department). There were some sections where I would check the JavaScript from 
+                            upgrades to ensure it still worked, and to ensure it even transferred over. </p>
+                        </div>
+
+                        <h2>jQuery</h2>
+                        <div><h3>2 Months of Coursework</h3>
+                            <p>While I learned HTML &amp; CSS I had some time to learn jQuery as well. I used jQuery for a varity of 
+                            small assignments and also again on this webpage. I'm still learning what can be done and hope to add more 
+                            for you to see!</p> 
+                            <p>The concept of jQuery fascinated me. Just code given to us as developers to use freely. Even though 
+                            everything in jQuery could be done by hand just having it so readily available not only makes development 
+                            just that much easier, but also gives way to an almost community feeling. A community where developers help 
+                            each other, just giving out tools to help each other for seemingly goodwill. </p>
+                        </div>
+                        
+                        <h2>PHP</h2>
+                        <div><h3>1 Month of Extreme Coursework</h3>
+                            <p>I only have a small amount of time that I worked with PHP. However, that amount of time I worked with PHP 
+                            was very intense. In one month I had no experience of PHP and then I learned quickly how it can be used. 
+                            The StreamTV project required PHP to be used as an intermediary language for the HTML and SQL.</p>
+                        </div>
+                    </div>
+                    <br /><br /><br />
+                    <h1>Technologies</h1>
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">Eclipse</a></li>
+                            <li><a href="#tabs-2">Visual Studio</a></li>
+                            <li><a href="#tabs-3">Microsoft CRM</a></li>
+                            <li><a href="#tabs-4">Github</a></li>
+                            <li><a href="#tabs-5">WebStorm</a></li>
+                            <li><a href="#tabs-6">IDLE</a></li>
+                            <li><a href="#tabs-7">AWS</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <p>I used Eclipse the for all my Java projects. We used it for writing our code and also for debugging. 
+                            Eclipse was our first true IDE, making life easier for coding and also for helping our peers, as we all 
+                            knew what each other was looking at. Eclipse helped pave the way to learning other IDEs as well.</p>
+                        </div>
+                        <div id="tabs-2">
+                            <p>This website was made using Visual Studio! While it isn't made specifically to do so I have been able learn 
+                            version control and Git with this project. I also used Visual Studio while at FM Global during my internship. We 
+                            used the version control there as well, however it was all already setup and I had someone helping me every step 
+                            of the way. I am now confident in using Visual Studio for Git thanks to my recent efforts at home!</p>
+                            <p>While at FM Global I also used Visual Studio to work on some automation using the addon "Coded UI." We were 
+                            working to automate a large QA test on our Dev environments which ran on Microsoft CRM Dynamics.</p>
+                        </div>
+                        <div id="tabs-3">
+                            <p>I used Microsoft CRM Dynamics while at my internship at FM Global. My team worked tirelessly on two environments 
+                            which ran on Microsoft's systems. I was able to see how the CRM functioned and how everything fit together. I worked 
+                            on the upgrade for one of our systems from CRM 2011 to 2016, documenting changes and working on some small bugs 
+                            that came with the upgrade as well.</p>
+                        </div>
+                        <div id="tabs-4">
+                            <p>I used Github for version control in a project with 5 other team members. Together we created a prototype 2D 
+                            side scroller game using Agile practices. I have also uploaded several projects of my own onto Github, using 
+                            both command line and the desktop application to do so.</p>
+                        </div>
+                        <div id="tabs-5">
+                            <p>I used JetBrains Webstorm IDE to create a few websites for a class I recently took. We went through nearly 
+                            everything related to HTML and CSS. We mostly focused on the newest versions as well. Using this I was able 
+                            to easily create websites through the IDE and using its features to unlock more potential than prior.</p>
+                        </div>
+                        <div id="tabs-6">
+                            <p>I used IDLE to create all of my Python programming assignments while at URI. With IDLE I was able to 
+                            create my code, debug and test everything. While IDLE may not be themost comprehensive environment to create 
+                            code on I was able to test anything I was unsure of very quickly and effectivly using the shell.</p>
+                        </div>
+                        <div id="tabs-7">
+                            <p>Amazon's comprehensive suite has allowed me to host this website! I have been working on finding out more 
+                            about AWS and it has inspired me to do more! I hope to find something else that I can do with AWS soon.</p>
+                        </div>
+                    </div>
+
+                <br /><br /><br /><br /><br /><br />
+                </div>
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="container-fixed">
+                <div id="pic">
+                    <img src="Pictures/1280x960_coding.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/about.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+        $('.smooth').on('click', function() {
+            $.smoothScroll({
+                scrollElement: $('body'),
+                scrollTarget: '#' + this.id
+            });
+            return false;
+        });
+    </script>
+</head>
+<body>
+    <div id="stuff">
+        <div id="container-fixed">
+            <div id="side_nav">
+                <ul>
+                    <li><img src="Pictures/icon.bmp" width="52px" height="52px" /></li>
+                    <li><a href="index.html">Welcome</a></li>
+                    <li><a href="about.html" class="current">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div id="line"></div>
+                <ul>
+                    <li><a href="#note">Note</a></li>
+                    <li><a href="#beginning">Beginning</a></li>
+                    <li><a href="#middle">Middle</a></li>
+                    <li><a href="#now">Now</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="wrapper">
+                <div id="page1" class=" stories alizarin">
+                    <a id="note" class="title">Note to the Reader</a>
+
+                    <figure>
+                        <blockquote>Thank you for taking the time to read this!</blockquote>
+                    </figure>
+
+                    <p>
+                        I don’t have much experience for to offer you, I don’t have many projects for you to dissect, but I do have 22 years 
+                        of life that has brought me here. I want to show you not only what I know, what is in my brain, but to show you what 
+                        is in my heart and what has created it. When taking on someone new their skills is only a single piece of who they are, 
+                        of what they will bring to the company. I want you to know exactly who I am the best I can show you, so while I walk 
+                        you through a high-level overview of my life rest assured you will know me better for reading through this. 
+                    </p>
+                    <figure>
+                        <blockquote>You’re building a team, and to make a good team you should know your players!</blockquote>
+                    </figure>
+                </div>
+                <div id="page2" class="stories crimson">
+                    <a id="beginning" class="title">The Beginning</a>
+                    <p>
+                        I was born and raised in Tiverton, Rhode Island, a small town on the border Massachusetts. I come from a Portuguese 
+                        family. I’ve spent the majority of my life in Tiverton, going to all the public schools from 1st grade all the way 
+                        through to graduation. I’ve always been more of an introvert and indoors kid. And with that came a more serious demeanor, 
+                        trying to be responsible and not waste time.
+                        <br /><br />
+                        During high school I was on the school’s soccer team for four years. I was probably the athlete who had grown the most 
+                        over the four years. When I began I could barely keep up with the team and eventually became a leader in my own right, with 
+                        two years on the varsity squad.
+
+                    </p>
+                </div>
+
+                <div id="page3" class="stories nephritis">
+                    <a id="middle" class="title">The Middle</a>
+                    <figure>
+                        <blockquote>I fell in love with the feeling of getting your code to work!</blockquote>
+                    </figure>
+                    
+                    <p>
+                        
+                        I started at the University of Rhode Island in September of 2013. I originally went in undecided and after one semester I 
+                        tried a few computer science courses and fell in love with the feeling of getting your code to work. That feeling of 
+                        accomplishment was so strong that I wanted to continue it and I enrolled in the program.
+                        <br /><br />
+                        While at URI I took a job at the Center for Career and Experiential Education, where I did data entry under the supervision
+                        of my URI 101 mentor, Tammy Leso. I worked there for two years, until my senior year. While there I learned and used excel 
+                        to go through large amounts of data and crunch numbers for both employees in the office and for deans of colleges. While at 
+                        the CCEE I worked on the beginning phases of the Rhody Alumni Mentoring Program as well. I researched various existing programs 
+                        across colleges and then conducted surveys to gather URI student feedback and interest on the program itself.
+
+                    </p>
+                </div>
+
+                <div id="page4" class="stories alizarin">
+                    <a id="now" class="title">Now</a>
+                    <p>
+                        I graduated in May of 2017. With my Computer Science degree, I am now looking for full-time work. While searching I 
+                        have been trying my best to learn on my own. I am learning about different directions I can take my career, different 
+                        languages and practices. I’m working to learn different tools and bringing everything together in larger comprehensive 
+                        projects. During this I have learned about the industry and worked with URI specialists on both the application and 
+                        interviewing process.  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
